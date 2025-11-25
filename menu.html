@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Explorer - Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">☕ Coffee Explorer</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home & About</a></li>
+                <li><a href="menu.html">Menu & Order</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="cart-summary">
+            <button id="viewCartBtn">
+                🛒 Cart (<span id="cartCount">0</span>) | $<span id="cartTotal">0.00</span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section id="menu" class="page-section">
+            <h2>Our Menu - Dynamic Ordering</h2>
+            <p>Use the search and filter controls below to quickly find your favorite items.</p>
+            <div class="filter-controls">
+                <input type="text" id="searchInput" placeholder="Search by name..." aria-label="Search menu items">
+                <select id="categoryFilter">
+                    <option value="all">Filter by Category (All)</option>
+                    <option value="coffee">Coffee</option>
+                    <option value="tea">Tea</option>
+                    <option value="pastry">Pastries</option>
+                </select>
+            </div>
+            
+            <div id="menuList" class="menu-grid">
+                </div>
+        </section>
+    </main>
+
+    <div id="cartModal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h3>Your Shopping Cart</h3>
+            <div id="cartItems">
+                <p class="empty-cart">Your cart is empty.</p>
+            </div>
+            <div class="cart-footer">
+                <p>Total: $<span id="modalCartTotal">0.00</span></p>
+                <button id="checkoutBtn">Proceed to Checkout</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Explorer - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">☕ Coffee Explorer</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home & About</a></li>
+                <li><a href="menu.html">Menu & Order</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        </header>
+
+    <main>
+        <section id="home" class="page-section">
+            <h1>Welcome to the Coffee Explorer!</h1>
+            <p>Your guide to the best brews and pastries in town. Use the navigation to start ordering.</p>
+            <button id="showSpecialBtn">View Today's Special</button>
+            <p id="specialDisplay" class="hidden alert-box"></p>
+        </section>
+
+        <section id="about" class="page-section">
+            <h2>Our Philosophy</h2>
+            <p>We are dedicated to sustainable sourcing and the perfect roast. Click below to meet our team!</p>
+            
+            <button id="toggleTeamBtn">Show/Hide Our Baristas</button>
+            
+            <div id="teamInfo" class="hidden dynamic-content">
+                <h3>Meet the Roasters</h3>
+                <div class="team-member">
+                    <p><strong>Alex V. (Lead Roaster):</strong> Focused on perfect temperature profiles.</p>
+                </div>
+                <div class="team-member">
+                    <p><strong>Maria S. (Head Barista):</strong> Champion of latte art and flavor pairings.</p>
+                </div>
+                <p class="note">This section is dynamically shown using JavaScript **Event Listeners** and **DOM Manipulation**.</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>

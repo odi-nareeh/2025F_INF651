@@ -32,16 +32,15 @@ This project demonstrates front-end JavaScript concepts covered in the course:
 Before submission, include the following in your GitHub repo or ZIP:
 - All source files: `index.html`, `styles.css`, `script.js`.
 - README.md with run instructions (this file).
-- `submission.pdf` — a short PDF (1–2 pages) summarizing features, JS concepts used, challenges, and possible enhancements.
+- `submission.pdf` — a short PDF (8 pages) summarizing features, JS concepts used, challenges, and possible enhancements.
 - A single ZIP or GitHub link to the repository.
 - Optional: a short GIF or MP4 demonstrating the app (useful for graders).
 
-### Grading mapping (aligns with assignment rubric)
+### Grading mapping
 - Functionality: interactive product filtering, cart (add/remove), checkout demo, contact form.
 - JavaScript Usage: events, DOM manipulation, loops, conditional logic, arrays/objects, modular code.
 - User Experience: responsive layout, clear controls, accessible labels and ARIA `aria-live` for product updates.
 - Planning & Documentation: README + submission PDF should explain design choices.
 - Code Quality: modular, readable, small utility helpers.
 
-Good luck — if you want, I can generate `submission.pdf` content for you (1–2 pages), or create a ZIP of the files ready to download.
 

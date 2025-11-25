@@ -14,13 +14,12 @@ This project demonstrates front-end JavaScript concepts covered in the course:
 - `index.html` — main HTML file (links `styles.css` and `script.js`)
 - `styles.css` — styling and responsive rules
 - `script.js` — modular JavaScript (ProductModule, CartModule, Utils, App)
-- Images (provided by user): `/mnt/data/html 1.jpg`, `/mnt/data/html 2.jpg`, `/mnt/data/html 3.png`
 
 ## How to run locally
 1. Place `index.html`, `styles.css`, and `script.js` in the same folder.
 2. Ensure the three image files are present at the listed local paths or update the `src` paths in `index.html`.
 3. Open `index.html` in a browser (Chrome/Firefox recommended).
-   - For best results, serve the folder with a static server (e.g. `npx serve` or `python -m http.server`) if you plan to test cross-origin or fetch features.
+   
 
 ## Implementation notes
 - JavaScript structure uses IIFE modules for encapsulation and to keep state private.
@@ -30,11 +29,10 @@ This project demonstrates front-end JavaScript concepts covered in the course:
 
 ## Submission checklist (for Blackboard / GitHub)
 Before submission, include the following in your GitHub repo or ZIP:
-- All source files: `index.html`, `styles.css`, `script.js`.
+- All source files: `index.html`, `styles.css`, `app.js`.
 - README.md with run instructions (this file).
 - `submission.pdf` — a short PDF (8 pages) summarizing features, JS concepts used, challenges, and possible enhancements.
-- A single ZIP or GitHub link to the repository.
-- Optional: a short GIF or MP4 demonstrating the app (useful for graders).
+- A single ZIP or GitHub link to the repository..
 
 ### Grading mapping
 - Functionality: interactive product filtering, cart (add/remove), checkout demo, contact form.
